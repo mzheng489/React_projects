@@ -1,33 +1,30 @@
 {
-  "name": "React_projects",
+  "name": "react-hello-world",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "a hello world project",
+  "main": "main.js",
   "scripts": {
-    "compile": "webpack",
-    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mzheng489/React_projects.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "michael zheng",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mzheng489/React_projects/issues"
   },
   "homepage": "https://github.com/mzheng489/React_projects#readme",
   "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.11.1",
-    "express": "^4.14.0",
-    "react": "^15.3.1",
-    "react-dom": "^15.3.1",
-    "webpack": "^1.13.2",
-    "webpack-dev-middleware": "^1.6.1"
+    "webpack": "^1.13.2"
   }
 }
